@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+#calculator{
+    background-color: red;
+    /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 30%;
+  height: 50%;
+  padding: 6px;
+  
+ 
+}
+
+#app{
+    /* background-color: blue;
+    display: 'flex';
+    width: 50%;
+    height: 100%; */
+    
+  height: 1080px;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+#view{
+  background-color: brown;
+  height: 30%;
+  padding: 6px;
+}
+
+#buttonArea{
+
+  background-color: coral;
+  height: 64%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+#container{
+  width:75%
+}
+#numbers{
+  background-color: cornsilk;
+  display:flex;
+  flex-wrap: wrap;
+  height: 80%;
+  flex-direction: row-reverse;
+
+}
+
+button{
+  margin: 2px;
+  height:65px;
+  width:134.5px;
+
+}
+
+
+
+#misc{
+  background-color: darkblue;
+
+  height: 20%
+}
+
+#operators{
+  background-color: darkcyan;
+  width: 25%;
+  height: 100%;
+  
+}
+
